@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: blue wavy underline;
+}
+
+h2 {
+    font-weight: 800;
+    text-decoration:  red dotted line-through;
+    text-align: right;
+}
+
+p {
+    line-height: 2;
+    text-align: center;
+}
