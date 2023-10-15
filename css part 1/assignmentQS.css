@@ -1,0 +1,28 @@
+p {
+    color: red;
+    line-height: 30px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button {
+    background-color: white;
+    color: blueviolet;
+}
+::placeholder {
+    color: black;
+}
