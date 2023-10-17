@@ -1,0 +1,18 @@
+h1[class=heading] {
+    background-color: aqua;
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+
+.nav {
+    background-color: green;
+}
+.navtil {
+    color: floralwhite;
+}
+
+.nav a {
+    color: floralwhite;
+}
