@@ -1,18 +1,47 @@
-h1[class=heading] {
-    background-color: aqua;
-    color: red;
+h1[class="heading"] {
+  background-color: aqua;
+  color: red;
 }
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav {
-    background-color: green;
+  background-color: green;
 }
+
 .navtil {
-    color: floralwhite;
+  color: floralwhite;
 }
 
 .nav a {
-    color: floralwhite;
+  color: floralwhite;
+}
+
+.agreement input[type="radio"]:checked + label[for="y"] {
+  background-color: green;
+  color: white;
+}
+
+.agreement input[type="radio"]:checked + label[for="n"] {
+  background-color: red;
+  color: white;
+}
+
+#login:hover {
+    background-color: lightblue;
+}
+
+#signup:hover {
+    background-color: lightgreen;
+}
+
+.heading:hover {
+    background-color: hotpink;
+}
+
+*::selection {
+    background-color: lightgoldenrodyellow;
+    color: black;
 }
