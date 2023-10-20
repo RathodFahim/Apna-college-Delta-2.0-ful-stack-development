@@ -5,3 +5,47 @@
 * {
     text-align: center;
 }
+
+h1 h3 h5 {
+    font-style: georgia;
+}
+
+.para {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+
+
+}
+
+*::selection {
+       background-color: black;
+         color: white;
+}
+
+.para:nth-of-type(odd) {
+    color: yellow;
+}
+
+button:active {
+    background-color: red;
+    color: white;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+.dli input[type="checkbox"]:checked + label[for="yes"] {
+    background-color: green;
+    color: white;
+}
