@@ -8,3 +8,9 @@ div {
 h1 {
     border: 2px dashed green;
 }
+
+*::selection {
+    background-color: yellow;
+    color: red;
+}
+
