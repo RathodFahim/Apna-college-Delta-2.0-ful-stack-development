@@ -1,0 +1,29 @@
+.container {
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-color: rgb(23, 202, 247);
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px; */
+
+    row-gap: 10px;
+    column-gap: 10px; 
+
+    /* grid-gap: 10px; */  /* This is the shorthand for row-gap and column-gap */
+    /* grid-gap: 10px 20px */ /* This is the shorthand for row-gap and column-gap */
+
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.item {
+    /* width: 100px;
+    height: 50px; */
+    color: white;
+    text-align: center;
+    background-color: rgb(204, 37, 87);
+    border: 2px solid black;
+}
