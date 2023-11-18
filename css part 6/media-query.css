@@ -1,0 +1,45 @@
+.mq {
+    background-color: yellow;
+    border: 2px solid black;
+    color: red;
+}
+
+@media (width: 400px) {
+    .mq {
+        background-color: red;
+        border: 2px solid black;
+        color: yellow;
+    }
+}
+
+@media (min-width: 700px) {
+    .mq {
+        background-color: green;
+        border: 2px solid black;
+        color: white;
+    }
+}
+
+@media (max-width: 200px) {
+    .mq {
+        background-color: blue;
+        border: 2px solid black;
+        color: white;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+    .mq {
+        background-color: pink;
+        border: 2px solid black;
+        color: white;
+    }
+}
+
+/* @media (orientation: landscape) {
+    .mq {
+        background-color: purple;
+        border: 2px solid black;
+        color: white;
+    }
+} */
