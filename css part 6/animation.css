@@ -1,0 +1,74 @@
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(160, 212, 160);
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* animation-name: FontAnimate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* Shorthand */
+
+    animation: FontAnimate 3s linear 0s infinite alternate;
+
+    animation: WidthAnimate 3s linear 0s infinite alternate;
+
+    /* animation-name: ColorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+
+@keyframes FontAnimate {
+    from {
+        font-size: 10px;
+        color: black;
+    }
+    to {
+        font-size: 50px;
+        color: blue;
+    }
+}
+
+@keyframes WidthAnimate {
+    0% {
+        /* height: 10px;
+        width: 10px; */
+        background-color: lightcoral;
+        border-radius: 20%;
+    }
+    50% {
+        /* height: 400px;
+        width: 400px; */
+        background-color: rgb(223, 28, 93);
+        border-radius: 40%;
+    }
+    100% {
+        /* height: 600px;
+        width: 600px; */
+        background-color: lightgreen;
+        /* border-radius: 50%; */
+        border-left: 50px solid transparent; 
+            border-right: 50px solid transparent; 
+              
+            border-bottom: 50px solid green;
+    }
+}
+
+/* @keyframes ColorAnimate {
+    from {
+        color: black;
+    }
+    to {
+        color: red;
+    }
+} */
