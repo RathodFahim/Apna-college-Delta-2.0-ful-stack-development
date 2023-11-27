@@ -1,0 +1,46 @@
+.out {
+    height: 200px;
+    width: 200px;
+    border: 16px solid #f3f3f3;
+    margin-top: 70px;
+    margin-left: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    border-top: 16px solid rgb(252, 61, 3);
+    border-bottom: 16px solid rgb(247, 190, 20);
+    transform: rotate(46deg);
+    animation: spin1 2s linear infinite;
+
+
+}
+
+.inn {
+    height: 168px;
+    width: 168px;
+    border: 16px solid #f3f3f3;
+    display: inline-block;
+    border-radius: 50%;
+    border-left: 16px solid rgb(20, 164, 247);
+    border-top: 16px solid rgb(20, 115, 247);
+    border-right: 16px solid rgb(8, 201, 108);
+    border-bottom: 16px solid rgb(7, 145, 79);
+    animation: spin2 2s linear infinite;
+}
+
+@keyframes spin1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
