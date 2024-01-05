@@ -9,7 +9,7 @@
 // 1. Arithmetic Operators
 
 let a = 2;
-let b = 4;
+let b = 5;
 
 console.log("The value of a + b is ", a + b);
 console.log("The value of a - b is ", a - b);
