@@ -5,12 +5,12 @@ console.log(a + b);
 
 let x = 11;
 let y = 5;
-let  sum = x + y;
+let sum = x + y;
 
 console.log(sum);
 
 let age = 30;
-age += 3;  // age = age + 3
+age += 3; // age = age + 3
 console.log(age);
 
 let firstName = "John";
